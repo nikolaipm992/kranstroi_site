@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_tinkoff_system` ADD `status_confirmed` int(11) NOT NULL;

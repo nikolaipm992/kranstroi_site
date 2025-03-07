@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.2</version>
+    <name>Promo Pult</name>
+    <faqlink>https://docs.phpshop.ru/moduli/seo/seo-pult</faqlink>
+    <description>Модуль SEO-продвижения.</description>
+    <category>seo</category>
+    <site>true</site>
+    <adminmenu>
+        <title>Promo Pult</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Пульт управления</podmenu_name>
+            <podmenu_action>dir.seopult</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

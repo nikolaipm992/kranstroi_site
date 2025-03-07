@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.7</version>
+    <name>Сбербанк России</name>
+    <description>Прием оплат через Сбербанк в соответствии с 54-ФЗ.</description>
+    <faqlink>https://docs.phpshop.ru/moduli/platezhnye-sistemy/sberbank</faqlink>
+    <category>payment</category>
+    <sign>1675160354</sign>
+    <adminmenu>
+        <title>Сбербанк России</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.sberbankrf</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

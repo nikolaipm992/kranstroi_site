@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Grastin Widget</name>
+    <faqlink>https://docs.phpshop.ru/moduli/dostavka/grastin-widget</faqlink>
+    <description>Виджет расчета доставки grastin.ru</description>
+    <category>delivery</category>
+    <sign>1575018039</sign>
+    <adminmenu>
+        <title>Grastin Widget</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.grastinwidget</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

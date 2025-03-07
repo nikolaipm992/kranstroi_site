@@ -1,0 +1,41 @@
+
+.bootstrap-theme{
+color:#fff;
+background-color:#000000;
+}
+.top-banner{
+background-color:#f9d500;
+}
+.footer-3{
+background:url() no-repeat center;
+background-size:cover;
+background-color:#f9d500;
+}
+.footer-1,.footer-2{
+background-color:#f9d500;
+background-image:url();
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+}
+.brands{
+background-color:#fafafa;
+}
+.new-price{
+color:#343434;
+}
+.product-name{
+color:#343434;
+}
+#body{
+--color:#90cc09;
+}
+.container-fluid,.modal-dialog,.popover-content,.modal-footer{
+--btncolor:#f9d500;
+}
+.main-container,.modal-dialog,.popover-content,.modal-footer{
+--btncolorover:#343434;
+}
+.theme-color {
+    color: #F9D400;
+}

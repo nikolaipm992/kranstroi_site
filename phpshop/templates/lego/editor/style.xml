@@ -1,0 +1,92 @@
+<?xml version = "1.0" encoding = "windows-1251" ?>
+<style>
+    <element>
+        <name>Цвет</name>
+        <description>Цвет</description>
+        <content>Цветовая гамма сайта</content>
+        <var>
+            <name>theme</name>
+            <type>theme</type>
+        </var>
+    </element>
+    <element>
+        <name>.top-banner</name>
+        <description>Шапка</description>
+        <content>Цвет заливки баннера в шапке</content>
+        <var>
+            <name>background-color</name>
+            <type>color</type>
+        </var>
+    </element>
+     <element>
+        <name>.footer-3</name>
+        <description>Подвал</description>
+        <content>Изображение в подвале</content>
+        <var>
+            <name>background</name>
+            <type>image</type>
+        </var>
+    </element>
+    <element>
+        <name>.footer-1,.footer-2</name>
+        <description>Подвал</description>
+        <content>Цвет заливки подвала</content>
+        <var>
+            <name>background-color</name>
+            <type>color</type>
+        </var>
+    </element>
+     <element>
+        <name>.brands</name>
+        <description>Бренды</description>
+        <content>Цвет заливки в брендах</content>
+        <var>
+            <name>background-color</name>
+            <type>color</type>
+        </var>
+    </element>
+     <element>
+        <name>.new-price</name>
+        <description>Цены</description>
+        <var>
+            <name>color</name>
+            <type>color</type>
+        </var>
+    </element>
+     <element>
+        <name>.product-name</name>
+        <description>Товары</description>
+        <content>Цвет ссылки на товар</content>
+        <var>
+            <name>color</name>
+            <type>color</type>
+        </var>
+    </element>
+     <element>
+        <name>#body</name>
+        <description>Ссылки</description>
+        <content>Цвет ссылки при наведении</content>
+        <var>
+            <name>--color</name>
+            <type>color</type>
+        </var>
+    </element>
+    <element>
+        <name>.container-fluid,.modal-dialog,.popover-content,.modal-footer</name>
+        <description>Кнопка</description>
+        <content>Цвет дополнительной кнопки</content>
+        <var>
+            <name>--btncolor</name>
+            <type>color</type>
+        </var>
+    </element>
+    <element>
+        <name>.main-container,.modal-dialog,.popover-content,.modal-footer</name>
+        <description>Купить</description>
+        <content>Цвет кнопки купить</content>
+        <var>
+            <name>--btncolorover</name>
+            <type>color</type>
+        </var>
+    </element>
+</style>   

@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_ozonseller_system` ADD `export` enum('0','1','2') NOT NULL default '0';

@@ -1,0 +1,1 @@
+<a href="#" data-toggle="modal" data-target="#userModal"><span class="glyphicon glyphicon-bookmark"></span> {��������} (<span class="wishlistcount">@wishlistCount@</span>)</a>

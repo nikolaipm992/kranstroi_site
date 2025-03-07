@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.8</version>
+    <name>Sitemap</name>
+    <faqlink>https://docs.phpshop.ru/moduli/seo/sitemap</faqlink>
+    <description>Модуль генерации карты сайта. Учитываются SEO ссылки.</description>
+    <category>seo</category>
+    <site>true</site>
+    <adminmenu>
+        <title>Sitemap</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

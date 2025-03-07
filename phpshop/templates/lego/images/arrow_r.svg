@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="19px" viewBox="0 0 10 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Path Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow-copy" transform="translate(-1195.000000, -12.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group" transform="translate(1200.000000, 21.000000) scale(-1, 1) translate(-1200.000000, -21.000000) translate(1179.000000, 0.000000)">
+                <path d="M17.2958556,21.4995023 L25.8423557,12.9187929 C26.0525481,12.7077592 26.0525481,12.369309 25.8423557,12.1582753 C25.6321634,11.9472416 25.2950625,11.9472416 25.0848701,12.1582753 L16.1576443,21.1212343 C15.9474519,21.332268 15.9474519,21.6707183 16.1576443,21.881752 L25.0848701,30.8407293 C25.1879833,30.9442553 25.3267896,31 25.46163,31 C25.5964704,31 25.7352766,30.948237 25.8383898,30.8407293 C26.0485822,30.6296956 26.0485822,30.2912454 25.8383898,30.0802117 L17.2958556,21.4995023 Z" id="Path-Copy"></path>
+            </g>
+        </g>
+    </g>
+</svg>

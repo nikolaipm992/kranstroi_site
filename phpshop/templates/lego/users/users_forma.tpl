@@ -1,0 +1,1 @@
+<li role="presentation" class="user"><a href="#" data-toggle="modal" data-target="#userModal"><span class="icons-avatar"></span> <span class="text">{Кабинет}</span></a></li> 

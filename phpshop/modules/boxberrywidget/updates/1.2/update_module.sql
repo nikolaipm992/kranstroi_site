@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_boxberrywidget_system` ADD `api_url` varchar(255) default 'http://api.boxberry.de';

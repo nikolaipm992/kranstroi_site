@@ -1,0 +1,61 @@
+
+$().ready(function () {
+    
+    locale.icon_load = null;
+
+    $("textarea[name=message],input[name=file]").on('click', function (event) {
+        $(".send-message").removeClass('disabled');
+        $(window).unbind("beforeunload");
+    });
+
+    $("#attachment-disp").on('click', function (event) {
+        $(this).toggleClass('hide');
+        $("#attachment").toggleClass('hide');
+    });
+
+    $("button[name=noSupport]").on('click', function () {
+        window.open('https://help.phpshop.ru/new/');
+    });
+
+
+    // «акрыть за€вку
+    $(".support-close").on('click', function (event) {
+        event.preventDefault();
+
+        $.MessageBox({
+            buttonDone: "OK",
+            buttonFail: locale.cancel,
+            message: locale.confirm_support_close
+        }).done(function () {
+
+            var data = [];
+            var id = $.getUrlVar('id');
+            data.push({name: 'selectID', value: 2});
+            data.push({name: 'ajax', value: 1});
+            data.push({name: 'actionList[selectID]', value: 'actionClose'});
+
+            $.ajax({
+                mimeType: 'text/html; charset=' + locale.charset,
+                url: '?path=support&id=' + id,
+                type: 'post',
+                data: data,
+                dataType: "html",
+                async: false,
+                success: function () {
+                    window.location.href = '?path=support';
+                }
+
+            });
+        })
+    });
+
+    // закрепление навигации
+    if ($('#fix-check').length && typeof (WAYPOINT_LOAD) != 'undefined')
+        var waypoint = new Waypoint({
+            element: document.getElementById('fix-check'),
+            handler: function (direction) {
+                $('.navbar-action').toggleClass('navbar-fixed-top');
+            },
+        });
+
+});
